@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Bruno Henrique Fiorindo Paschoal</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Bruno Henrique Fiorindo Paschoal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Oct 2024 17:20:49 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2024 21:07:49 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Fri, 04 Oct 2024 17:20:49 -0300</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Esta página contém informações sobre a minha humilde pessoa.&lt;/p&gt;</description>
+      <title>Data Science</title>
+      <link>http://localhost:1313/compet%C3%AAncias/data/</link>
+      <pubDate>Mon, 07 Oct 2024 21:07:49 -0300</pubDate>
+      <guid>http://localhost:1313/compet%C3%AAncias/data/</guid>
+      <description>&lt;p&gt;Data analysis&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Flask</title>
-      <link>http://localhost:1313/tutorials/flask/</link>
-      <pubDate>Sat, 18 Sep 2021 23:28:40 -0300</pubDate>
-      <guid>http://localhost:1313/tutorials/flask/</guid>
-      <description>&lt;p&gt;Aprenda Flask em apenas quatro passos!&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Step one&lt;/li&gt;&#xA;&lt;li&gt;Step two&lt;/li&gt;&#xA;&lt;li&gt;????&lt;/li&gt;&#xA;&lt;li&gt;PROFIT!!!&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <title>Segurança Cibernética</title>
+      <link>http://localhost:1313/compet%C3%AAncias/seguranca/</link>
+      <pubDate>Mon, 07 Oct 2024 21:07:36 -0300</pubDate>
+      <guid>http://localhost:1313/compet%C3%AAncias/seguranca/</guid>
+      <description>&lt;p&gt;cisco&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Django</title>
-      <link>http://localhost:1313/tutorials/django/</link>
-      <pubDate>Sat, 18 Sep 2021 23:27:57 -0300</pubDate>
-      <guid>http://localhost:1313/tutorials/django/</guid>
-      <description>&lt;p&gt;Aprenda Django em apenas quatro passos!&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Step one&lt;/li&gt;&#xA;&lt;li&gt;Step two&lt;/li&gt;&#xA;&lt;li&gt;????&lt;/li&gt;&#xA;&lt;li&gt;PROFIT!!!&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <title>Otimização Topológica</title>
+      <link>http://localhost:1313/compet%C3%AAncias/otimizacao/</link>
+      <pubDate>Mon, 07 Oct 2024 21:07:25 -0300</pubDate>
+      <guid>http://localhost:1313/compet%C3%AAncias/otimizacao/</guid>
+      <description>&lt;p&gt;IC emílio&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sobre</title>
+      <link>http://localhost:1313/sobre/</link>
+      <pubDate>Mon, 07 Oct 2024 20:50:04 -0300</pubDate>
+      <guid>http://localhost:1313/sobre/</guid>
+      <description>&lt;p&gt;Hobby&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
