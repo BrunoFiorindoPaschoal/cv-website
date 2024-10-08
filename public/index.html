@@ -12,26 +12,91 @@
 
 <body>
     <header>
-<img src="/images/logo.svg" alt="logo">
-    <h1>Bruno Henrique Fiorindo Paschoal</h1>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">Resume</a></li>
-            <li><a href="/compet%c3%aancias">Competências</a></li>
-            <li><a href="/sobre">Sobre</a></li>
-        </ul>
+  <div class="header-container">
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/resume">Resume</a></li>
+        <li><a href="/compet%c3%aancias">Competências</a></li>
+        <li><a href="/sobre">Sobre</a></li>
+      </ul>
     </nav>
+    <div class="main-title">
+      <p>Estudante de Graduação @ Poli USP</p>
+      <h1>Bruno Henrique Fiorindo Paschoal</h1>
+      <div class="sub-categories">
+        <span>OPTIMIZATION</span>
+        <span>MACHINE LEARNING</span>
+        <span>CYBERSECURITY</span>
+      </div>
+    </div>
+  </div>
 </header>
     <main>
         
-    <p>Este é o meu portfólio</p>
-<p>Neste site, você encontrará</p>
-<ul>
-<li>Minha biografia</li>
-<li>Meus projetos</li>
-<li>Meu currículo</li>
-</ul>
+<div class="about-section">
+    <div class="about-container">
+        <div class="profile-pic">
+            <img src="images/profile.jpeg" alt="Profile Picture">
+        </div>
+        <div class="about-content">
+            <h2>Sobre</h2>
+            <p>I am a Ph.D. student in Computer and Information Sciences at the Department of Computing Security, Rochester Institute of Technology, under the guidance of Prof. Ivan de Oliveira. My educational background includes a Bachelor of Engineering degree from the State University of Campinas, where I majored in Control and Automation Engineering.</p>
+
+            <p>Prior to beginning my Ph.D. program, I worked as a researcher on the Artificial Intelligence team at the Samsung R&D Institute in Brazil. During my time at Samsung, I conducted research primarily focused on Computer Vision and AI applications for Healthcare.</p>
+
+            <p>My current research focuses on exploring different aspects of binary and runtime integrity to improve the security of computer systems. Specifically, I am investigating a range of topics related to Remote Attestation, Control Flow Attestation, Authentication, blending attestation with communication protocols, and Embedded and Mobile Security.</p>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> bhfpaschoal@usp.br </p>
+                <p><strong>Address:</strong> Rua Duarte de Carvalho, 60</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.about-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.about-container {
+    display: flex;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    padding: 20px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about-content {
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.about-content h2 {
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.contact-info p {
+    margin-top: 20px;
+}
+</style>
+
 
 
     </main>

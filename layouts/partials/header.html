@@ -1,12 +1,21 @@
 <header>
-<img src="{{ relURL "images/logo.svg" }}" alt="logo">
-    <h1>{{ .Site.Title}}</h1>
-    <nav>
-        <ul>
-            <li><a href="{{ relURL "" }}">Home</a></li>
-            <li><a href="{{ relURL "about" }}">Resume</a></li>
-            <li><a href="{{ relURL "competências" }}">Competências</a></li>
-            <li><a href="{{ relURL "sobre" }}">Sobre</a></li>
-        </ul>
+  <div class="header-container">
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="{{ relURL "" }}">Home</a></li>
+        <li><a href="{{ relURL "resume" }}">Resume</a></li>
+        <li><a href="{{ relURL "competências" }}">Competências</a></li>
+        <li><a href="{{ relURL "sobre" }}">Sobre</a></li>
+      </ul>
     </nav>
+    <div class="main-title">
+      <p>Estudante de Graduação @ Poli USP</p>
+      <h1>{{ .Site.Title}}</h1>
+      <div class="sub-categories">
+        <span>OPTIMIZATION</span>
+        <span>MACHINE LEARNING</span>
+        <span>CYBERSECURITY</span>
+      </div>
+    </div>
+  </div>
 </header>

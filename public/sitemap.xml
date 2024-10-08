@@ -3,22 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-07T20:50:04-03:00</lastmod>
+    <lastmod>2024-10-07T21:35:02-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resume/</loc>
+    <lastmod>2024-10-07T21:35:02-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/compet%C3%AAncias/</loc>
+    <lastmod>2024-10-07T21:07:49-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/compet%C3%AAncias/data/</loc>
+    <lastmod>2024-10-07T21:07:49-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/compet%C3%AAncias/seguranca/</loc>
+    <lastmod>2024-10-07T21:07:36-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/compet%C3%AAncias/otimizacao/</loc>
+    <lastmod>2024-10-07T21:07:25-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/sobre/</loc>
     <lastmod>2024-10-07T20:50:04-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2024-10-04T17:20:49-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/compet%C3%AAncias/</loc>
-    <lastmod>2021-09-18T23:28:40-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/compet%C3%AAncias/flask/</loc>
-    <lastmod>2021-09-18T23:28:40-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/compet%C3%AAncias/django/</loc>
-    <lastmod>2021-09-18T23:27:57-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
