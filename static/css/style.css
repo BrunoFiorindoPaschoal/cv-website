@@ -71,3 +71,30 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+ul li {
+  margin: 15px 0; /* Adiciona mais espaço entre os botões */
+}
+
+.button-link {
+  display: inline-block;
+  padding: 15px 30px; /* Aumenta o tamanho do botão */
+  background-color: #4A90E2; /* Azul suave */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px; /* Bordas mais arredondadas */
+  font-size: 1.5em; /* Aumenta o tamanho da fonte */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: 300px; /* Largura fixa para os botões */
+}
+
+.button-link:hover {
+  background-color: #357ABD; /* Cor mais escura no hover */
+}

@@ -1,0 +1,82 @@
+/* Estilo básico */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  text-align: center;
+  color: #4A90E2;
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+/* Estilo de educação e experiência */
+.education-item, .experience-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.degree-info, .job-info {
+  width: 40%;
+}
+
+.degree-details, .job-details {
+  width: 55%;
+}
+
+h3 {
+  color: #333;
+}
+
+h4 {
+  font-weight: bold;
+  color: #4A90E2;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
