@@ -36,12 +36,5 @@
       <guid>http://localhost:1313/compet%C3%AAncias/otimizacao/</guid>
       <description>&lt;p&gt;IC emílio&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Sobre</title>
-      <link>http://localhost:1313/sobre/</link>
-      <pubDate>Mon, 07 Oct 2024 20:50:04 -0300</pubDate>
-      <guid>http://localhost:1313/sobre/</guid>
-      <description>&lt;p&gt;Hobby&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

@@ -1,8 +1,12 @@
 {{ define "main" }}
-<h2>{{ .Title }}</h2>
-<ul>
+<h1>{{ .Title }}</h1>
+<div class="buttons-container">
     {{ range .Pages }}
-        <li><a class="button-link" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        <div class="button-item">
+            <a class="button-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <!-- Exibir a imagem de cada página -->
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="button-image">
+        </div>
     {{ end }}
-</ul>
+</div>
 {{ end }}
