@@ -1,6 +1,5 @@
 /* Estilo básico */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -11,11 +10,11 @@ header {
   position: relative;
   width: 100vw; /* Garante que o header ocupe a largura total da viewport */
   margin: 0;
-  height: 30vh; /* Para ocupar a tela inteira */
+  height: 25vh; /* Para ocupar a tela inteira */
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/images/9479399-RUZAOBPN-7.jpg'); /* Adicione sua imagem de fundo */
+  background-image: url('/images/Insane_header.png'); /* Adicione sua imagem de fundo */
   background-size: cover;
   color: white;
   text-align: center;
@@ -121,4 +120,12 @@ footer {
   background-color: #333;
   color: white;
   padding: 20px 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Impede que a página tenha um scroll horizontal */
 }

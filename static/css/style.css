@@ -2,11 +2,11 @@ header {
   position: relative;
   width: 100vw; /* Garante que o header ocupe a largura total da viewport */
   margin: 0;
-  height: 25vh; /* Para ocupar a tela inteira */
+  height: 25vh; /* Altura mínima de 50% da tela */
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/images/9479399-RUZAOBPN-7.jpg'); /* Adicione sua imagem de fundo */
+  background-image: url('/images/Insane_header.png'); /* Adicione sua imagem de fundo */
   background-size: cover;
   color: white;
   text-align: center;
@@ -149,4 +149,44 @@ ul li {
 
 h1 {
   text-align: center;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.about-container {
+    display: flex;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    padding: 20px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.about-content {
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.about-content h2 {
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.contact-info p {
+    margin-top: 20px;
 }
