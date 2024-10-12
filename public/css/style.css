@@ -190,3 +190,40 @@ h1 {
 .contact-info p {
     margin-top: 20px;
 }
+
+.about-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-images .about-img {
+    width: 300px; /* Largura das imagens */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.about-images .about-img:hover {
+    transform: scale(3);
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-content {
+        padding-right: 0;
+    }
+
+    .about-images {
+        align-items: center;
+    }
+
+    .about-images .about-img {
+        width: 100%;
+    }
+}
