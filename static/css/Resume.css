@@ -8,16 +8,16 @@ body {
 
 header {
   position: relative;
-  width: 100vw; /* Garante que o header ocupe a largura total da viewport */
-  margin: 0;
-  height: 25vh; /* Para ocupar a tela inteira */
+  width: 100vw;
+  height: 100vh; /* Mantém a altura relativa à viewport */
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/images/Insane_header.png'); /* Adicione sua imagem de fundo */
+  background-image: url('/images/Insane_header.png'); /* Imagem de fundo */
   background-size: cover;
   color: white;
   text-align: center;
+  padding: 0 20px; /* Espaçamento interno */
 }
 
 .nav-bar {
@@ -40,16 +40,6 @@ header {
   font-weight: bold;
 }
 
-.main-title p {
-  color: #4A90E2; /* Cor azul para o subtítulo */
-  font-size: 2em;
-}
-
-.main-title h1 {
-  font-size: 3.5em;
-  font-weight: bold;
-}
-
 .sub-categories {
   margin-top: 15px;
   font-size: 1.2em;
@@ -64,7 +54,48 @@ header {
   margin-left: 10px;
   margin-right: 10px;
 }
+.main-title {
+  max-width: 90%; /* Limita a largura do conteúdo */
+  padding: 20px; /* Adiciona espaçamento */
+}
 
+.main-title h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.main-title p {
+  font-size: 1.8em;
+  color: #4A90E2; /* Azul */
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 30vh; /* Aumenta a altura em telas menores */
+  }
+
+  .main-title h1 {
+    font-size: 2.5em; /* Diminui o tamanho da fonte */
+  }
+
+  .main-title p {
+    font-size: 1.4em; /* Ajusta o subtítulo */
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 35vh; /* Altura para telas muito pequenas */
+  }
+
+  .main-title h1 {
+    font-size: 2em; /* Mais redução no tamanho da fonte */
+  }
+
+  .main-title p {
+    font-size: 1.2em; /* Reduz ainda mais o subtítulo */
+  }
+}
 section {
   padding: 50px 0;
 }
@@ -128,4 +159,31 @@ body, html {
   width: 100%;
   height: 100%;
   overflow-x: hidden; /* Impede que a página tenha um scroll horizontal */
+}
+
+h1 {
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 2.5rem; /* Ajusta para telas menores que 1200px */
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem; /* Ajusta para telas menores que 800px */
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem; /* Ajusta para telas menores que 600px */
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.2rem; /* Ajusta para telas muito pequenas, como smartphones */
+  }
 }

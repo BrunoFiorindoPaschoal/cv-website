@@ -1,15 +1,15 @@
 header {
   position: relative;
-  width: 100vw; /* Garante que o header ocupe a largura total da viewport */
-  margin: 0;
-  height: 25vh; /* Altura mínima de 50% da tela */
+  width: 100vw;
+  height: 100vh; /* Mantém a altura relativa à viewport */
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/images/Insane_header.png'); /* Adicione sua imagem de fundo */
+  background-image: url('/images/Insane_header.png'); /* Imagem de fundo */
   background-size: cover;
   color: white;
   text-align: center;
+  padding: 0 20px; /* Espaçamento interno */
 }
 
 .nav-bar {
@@ -32,16 +32,6 @@ header {
   font-weight: bold;
 }
 
-.main-title p {
-  color: #4A90E2; /* Cor azul para o subtítulo */
-  font-size: 2em;
-}
-
-.main-title h1 {
-  font-size: 3.5em;
-  font-weight: bold;
-}
-
 .sub-categories {
   margin-top: 15px;
   font-size: 1.2em;
@@ -56,11 +46,53 @@ header {
   margin-left: 10px;
   margin-right: 10px;
 }
+.main-title {
+  max-width: 90%; /* Limita a largura do conteúdo */
+  padding: 20px; /* Adiciona espaçamento */
+}
+
+.main-title h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.main-title p {
+  font-size: 1.8em;
+  color: #4A90E2; /* Azul */
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 30vh; /* Aumenta a altura em telas menores */
+  }
+
+  .main-title h1 {
+    font-size: 2.5em; /* Diminui o tamanho da fonte */
+  }
+
+  .main-title p {
+    font-size: 1.4em; /* Ajusta o subtítulo */
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 35vh; /* Altura para telas muito pequenas */
+  }
+
+  .main-title h1 {
+    font-size: 2em; /* Mais redução no tamanho da fonte */
+  }
+
+  .main-title p {
+    font-size: 1.2em; /* Reduz ainda mais o subtítulo */
+  }
+}
 
 main {
   flex: 1; /* Faz o main crescer para ocupar o espaço disponível */
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto;;
 }
 
 footer {
@@ -77,6 +109,7 @@ body, html {
   margin: 0;
   display: flex;
   flex-direction: column; /* Coloca os elementos um embaixo do outro */
+    overflow-x: hidden; /* Evita barra horizontal */
 }
 
 main {
@@ -150,6 +183,29 @@ ul li {
 h1 {
   text-align: center;
 }
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 2.5rem; /* Ajusta para telas menores que 1200px */
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2rem; /* Ajusta para telas menores que 800px */
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem; /* Ajusta para telas menores que 600px */
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.2rem; /* Ajusta para telas muito pequenas, como smartphones */
+  }
+}
 
 .about-section {
     display: flex;
@@ -159,11 +215,20 @@ h1 {
 
 .about-container {
     display: flex;
+    flex-wrap: wrap;
     background-color: #f9f9f9;
+    justify-content: flex-start;
+    align-items: flex-start;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 900px;
     padding: 20px;
+    margin: 0 auto;
+}
+.profile-pic {
+    flex: 1;
+    margin-right: 30px;
+    min-width: 150px; /* Largura mínima para a imagem */
 }
 
 .profile-pic img {
@@ -174,6 +239,7 @@ h1 {
 }
 
 .about-content {
+    flex: 2;
     margin-left: 20px;
     font-family: Arial, sans-serif;
 }
@@ -226,4 +292,10 @@ h1 {
     .about-images .about-img {
         width: 100%;
     }
+}
+
+.spacer {
+  width: 100%;   /* Largura total da página */
+  height: 100px; /* Altura para criar o espaço vazio */
+  background-color: transparent; /* Transparente para não ser visível */
 }
