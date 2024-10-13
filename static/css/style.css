@@ -14,24 +14,57 @@ header {
 
 .nav-bar {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 20px; /* Distância do topo */
+  left: 20px; /* Distância da esquerda */
+  display: flex;
 }
 
 .nav-bar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
-  gap: 15px;
 }
 
-.nav-bar ul li a {
+.nav-bar li {
+  position: relative;
+  margin-right: 20px;
+}
+
+.nav-bar a {
   color: white;
+  font-size: 18px;
   text-decoration: none;
-  font-weight: bold;
+  padding: 10px 20px;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main-title {
+  text-align: center;
+  color: white;
+  margin-top: auto; /* Alinha o título verticalmente */
+}
 .sub-categories {
   margin-top: 15px;
   font-size: 1.2em;

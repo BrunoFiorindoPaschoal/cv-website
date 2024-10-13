@@ -2,9 +2,14 @@
   <div class="header-container">
     <nav class="nav-bar">
       <ul>
-        <li><a href="{{ relURL "" }}">Home</a></li>
-        <li><a href="{{ relURL "resume" }}">Resume</a></li>
-        <li><a href="{{ relURL "competências" }}">Competências</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Menu</a>
+          <div class="dropdown-content">
+            <a href="{{ relURL "" }}">Home</a>
+            <a href="{{ relURL "resume" }}">Resume</a>
+            <a href="{{ relURL "competências" }}">Competências</a>
+          </div>
+        </li>
       </ul>
     </nav>
     <div class="main-title">
@@ -18,3 +23,4 @@
     </div>
   </div>
 </header>
+
