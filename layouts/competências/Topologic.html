@@ -1,15 +1,30 @@
 {{ define "main" }}
 <div class="about-section">
-    <div class="about-container">
-        <div class="about-content">
-            <h2>Otimização Topológica</h2>
-            <p>Durante a graduação criei grande afinidade com o cálculo numérico e a área da otimização toplógica chamou atenção.</p>
-            <p>A otimização toplógica representa um método de otimização numérica na qual se altera a distruibuição material de um domínio de forma a maximizar o desempenho do sistema </p>
-            <p>Nessa linha, desenvolveu-se com sucesso um algorítmo próprio para a otimização de motores elétricos de relutância variável, mediante financiamento da FAPESP.</p>
-            <p>O algorítimo desenvolvido foi feito com a ferramenta FEniCs open-source, em conjunto com as bibliotecas dolfin-adjoint e IPOPT</p>
-            <p> Atuo como pesquisador sob a modalidade de Iniciação Científica no laboratório MSOL(Multiphysics Systems Optimization Laboratory) na área da otimização topológica de atuadores magnéticos. Trabalho esse orientado pelo Prof. Dr. Emílio Carlos Nelli Silva e financiado pela FAPESP</p>
-            <p> Atualmente, continua-se a pesquisa para outros sistemas de atuação magnéticas com a renovação do financiamento FAPESP </p>
+    <div class="about-container two-columns">
+
+        <!-- Coluna da Esquerda – Texto -->
+        <div class="about-content left-column">
+            <h2>Topology Optimization</h2>
+            <p>During my undergraduate studies, I developed a strong interest in numerical methods, particularly in the field of topology optimization.</p>
+            <p>Topology optimization is a numerical technique that alters the material distribution within a given domain to maximize system performance.</p>
+            <p>In this context, I successfully developed a custom algorithm for optimizing switched reluctance electric motors, with funding from FAPESP.</p>
+            <p>The algorithm was implemented using the open-source FEniCS platform, in combination with the dolfin-adjoint and IPOPT libraries.</p>
+            <p>I am currently working as an undergraduate researcher at the MSOL (Multiphysics Systems Optimization Laboratory).</p>
+            <p>Additionally, my research explores the design and optimization of mechanical and hydraulic neural networks.</p>
         </div>
+
+        <!-- Coluna da Direita – Papers -->
+        <div class="about-content right-column">
+            <h3>Related Papers (not yet finished)</h3>
+
+            <div class="paper-card">
+                <h4>Electric Machines</h4>
+                <a class="paper-button" href="/papers/Paper_TO___Electric_Machines.pdf" target="_blank">View PDF</a>
+            </div>
+        </div>
+
     </div>
 </div>
+
+
 {{ end }}

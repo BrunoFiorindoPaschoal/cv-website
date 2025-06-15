@@ -1,18 +1,36 @@
 {{ define "main" }}
 <div class="spacer"></div>
+
 <div class="about-section">
-    <div class="about-container">
-        <div class="about-content">
-            <h2>Aprendizado de Máquina</h2>
-            <p>Sempre tive afinidade com a área relacionada à aprendizado de máquina.</p>
-            <p>Realizei inúmeros cursos na área. </p>
-            <p>Realizei a disciplina Aprendizado de Máquina e Reconhecimento de Padrões (PMR3508) da Escola Politécnica da Universidade de São Paulo, ministrada pelo Prof. Dr. Fabio Gagliardi Cozman. </p>
-            <p>Em tal disciplina, aprofundou-se extensamente na teoria de cálculo numérico por trás do aprendizado de máquina e implementou-se inúmeros classificadores.</p>
-        </div>
-               <div class="about-images">
-            <img src="/images/alura-1.png" alt="Curso Alura" class="about-img">
-        </div>
+  <div class="about-container two-columns">
+
+    <!-- Coluna da Esquerda – Texto -->
+    <div class="about-content left-column">
+      <h2>Machine Learning</h2>
+      <p>I have always had a strong interest in the field of machine learning. I have completed several courses in this area, including the university-level course “Machine Learning and Pattern Recognition” (PMR3508) at the Polytechnic School of the University of São Paulo, taught by Prof. Dr. Fabio Gagliardi Cozman. The course provided an in-depth understanding of the numerical theory behind machine learning and included the implementation of various classification algorithms.</p>
+
+      <p>In parallel, I have explored the physical implementation of learning systems through the development of mechanical and hydraulic neural networks — physical systems inspired by artificial neural networks, capable of performing tasks such as classification, control, and adaptation using mechanical or fluidic interactions instead of digital computation.</p>
+
+      <p>These devices were optimized using topology optimization and simulated using the finite element method. My research includes proposals for real-world applications in smart structures and soft robotics, supported by FAPESP and supervised by Prof. Dr. Emílio Carlos Nelli Silva.</p>
     </div>
+
+    <!-- Coluna da Direita – Papers -->
+    <div class="about-content right-column">
+      <h3>Related Papers (not yet finished)</h3>
+
+      <div class="paper-card">
+        <h4>Task Learning with Mechanical Neural Networks</h4>
+        <a class="paper-button" href="/papers/Paper_TO_MNN_Bruno_Paschoal1.pdf" target="_blank">View PDF</a>
+      </div>
+
+      <div class="paper-card">
+        <h4>Classification with Hydraulic Neural Networks</h4>
+        <a class="paper-button" href="/papers/Paper_TO_MNN_Bruno_Paschoal_Hidraulic.pdf" target="_blank">View PDF</a>
+      </div>
+    </div>
+
+  </div>
 </div>
+
 <div class="spacer"></div>
 {{ end }}
