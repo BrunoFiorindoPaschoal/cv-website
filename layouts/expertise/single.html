@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="spacer"></div>
+<div class="about-section">
+  <div class="about-container two-columns">
+    <div class="about-content left-column">
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
+    </div>
+    {{ with .Params.papers }}
+    <div class="about-content right-column">
+      <h3>{{ i18n "related_papers" }}</h3>
+      {{ range . }}
+      <div class="paper-card">
+        <h4>{{ .title }}</h4>
+        <a class="paper-button" href="{{ .file | relURL }}" target="_blank" rel="noopener">{{ i18n "view_pdf" }}</a>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+<div class="spacer"></div>
+{{ end }}

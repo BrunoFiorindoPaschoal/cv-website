@@ -1,3 +1,20 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://site-curriculo-sisinfo-bhfpaschoal-2fc8d5249990d3d82c5dfbd4cb72.e.usp.br/'
 title = 'Bruno Henrique Fiorindo Paschoal'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages.en]
+  languageName = 'EN'
+  languageCode = 'en-us'
+  weight = 1
+[languages.de]
+  languageName = 'DE'
+  languageCode = 'de-de'
+  weight = 2
+[languages.pt]
+  languageName = 'PT'
+  languageCode = 'pt-br'
+  weight = 3
+
+[markup.goldmark.renderer]
+  unsafe = true

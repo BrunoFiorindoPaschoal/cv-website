@@ -1,17 +1,14 @@
 {{ define "main" }}
 <div class="spacer"></div>
-<div class="spacer"></div>
 
 <h1>{{ .Title }}</h1>
 <div class="buttons-container">
     {{ range .Pages }}
-        <div class="button-item">
-            <a class="button-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-            <!-- Exibir a imagem de cada página -->
-            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="button-image">
-        </div>
+        <a class="button-item" href="{{ .RelPermalink }}">
+            <span class="button-link">{{ .Title }}</span>
+            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="button-image">
+        </a>
     {{ end }}
 </div>
-<div class="spacer"></div>
 <div class="spacer"></div>
 {{ end }}

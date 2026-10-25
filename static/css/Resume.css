@@ -1,224 +1,95 @@
-/* Estilo básico */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+/* Resume page only; header, footer and base styles come from style.css */
+.resume {
+  font-family: Arial, sans-serif;
   color: #333;
 }
 
-header {
-  position: relative;
-  width: 100vw;
-  height: 100vh; /* Mantém a altura relativa à viewport */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('/images/Insane_header.png'); /* Imagem de fundo */
-  background-size: cover;
-  color: white;
-  text-align: center;
-  padding: 0 20px; /* Espaçamento interno */
+.resume section {
+  padding: 40px 0 10px;
 }
 
-.nav-bar {
-  position: absolute;
-  top: 20px; /* Distância do topo */
-  left: 20px; /* Distância da esquerda */
-  display: flex;
-}
-
-.nav-bar ul {
-  list-style-type: none;
-  display: flex;
-}
-
-.nav-bar li {
-  position: relative;
-  margin-right: 20px;
-}
-
-.nav-bar a {
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
-  padding: 10px 20px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.main-title {
-  text-align: center;
-  color: white;
-  margin-top: auto; /* Alinha o título verticalmente */
-}
-
-.sub-categories {
-  margin-top: 15px;
-  font-size: 1.2em;
-}
-
-.sub-categories span {
-  color: white;
-}
-
-.sub-categories span:not(:last-child)::after {
-  content: "|";
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.main-title {
-  max-width: 90%; /* Limita a largura do conteúdo */
-  padding: 20px; /* Adiciona espaçamento */
-}
-
-.main-title h1 {
-  font-size: 3.5em;
-  font-weight: bold;
-}
-
-.main-title p {
-  font-size: 1.8em;
-  color: #4A90E2; /* Azul */
-}
-
-@media (max-width: 768px) {
-  header {
-    height: 30vh; /* Aumenta a altura em telas menores */
-  }
-
-  .main-title h1 {
-    font-size: 2.5em; /* Diminui o tamanho da fonte */
-  }
-
-  .main-title p {
-    font-size: 1.4em; /* Ajusta o subtítulo */
-  }
-}
-
-@media (max-width: 480px) {
-  header {
-    height: 35vh; /* Altura para telas muito pequenas */
-  }
-
-  .main-title h1 {
-    font-size: 2em; /* Mais redução no tamanho da fonte */
-  }
-
-  .main-title p {
-    font-size: 1.2em; /* Reduz ainda mais o subtítulo */
-  }
-}
-section {
-  padding: 50px 0;
-}
-
-h2 {
+.resume h2 {
   text-align: center;
   color: #4A90E2;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-size: 2em;
 }
 
-/* Estilo de educação e experiência */
 .education-item, .experience-item {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  gap: 30px;
+  padding: 24px;
   background-color: white;
   margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .degree-info, .job-info {
-  width: 40%;
+  width: 38%;
 }
 
 .degree-details, .job-details {
-  width: 55%;
+  width: 58%;
 }
 
-h3 {
+.resume h3 {
+  margin-top: 0;
   color: #333;
 }
 
-h4 {
+.resume h4 {
   font-weight: bold;
   color: #4A90E2;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.resume p {
+  line-height: 1.5;
+  margin: 6px 0;
 }
 
-ul li {
-  padding-left: 15px;
-  margin-bottom: 10px;
+.resume .date {
+  color: #4A90E2;
+  font-weight: bold;
 }
 
-footer {
-  text-align: center;
-  background-color: #333;
-  color: white;
-  padding: 20px 0;
+.resume ul {
+  list-style: disc;
+  text-align: left;
+  padding-left: 20px;
+  margin: 10px 0 0;
 }
 
-body, html {
+.resume ul li {
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+
+.experience-item.skills ul {
   margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden; /* Impede que a página tenha um scroll horizontal */
 }
 
-h1 {
-  text-align: center;
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
 }
-@media (max-width: 1200px) {
-  h1, span ,p{
-    font-size: 2.1rem; /* Ajusta para telas menores que 1200px */
+
+@media (max-width: 768px) {
+  .education-item, .experience-item {
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px;
+  }
+
+  .degree-info, .job-info, .degree-details, .job-details {
+    width: 100%;
+  }
+
+  .resume h2 {
+    font-size: 1.6em;
   }
 }
-
-@media (max-width: 800px) {
-  h1, span,p{
-    font-size: 1.5rem; /* Ajusta para telas menores que 800px */
-  }
-}
-
-@media (max-width: 600px) {
-  h1 , span,p{
-    font-size: 1.1rem; /* Ajusta para telas menores que 600px */
-  }
-}
-
-@media (max-width: 400px) {
-  h1, span,p {
-    font-size: 0.6rem; /* Ajusta para telas muito pequenas, como smartphones */
-  }
-}
-

@@ -1,6 +1,7 @@
 header {
   position: relative;
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box;
   height: 100vh; /* Mantém a altura relativa à viewport */
   display: flex;
   align-items: center;
@@ -137,6 +138,11 @@ footer {
   width: 100%;
 }
 
+body {
+  background-color: #fff;
+  color: #333;
+}
+
 body, html {
   height: 100%; /* Faz o body ocupar 100% da altura da página */
   margin: 0;
@@ -215,29 +221,6 @@ ul li {
 
 h1 {
   text-align: center;
-}
-@media (max-width: 1200px) {
-  h1, span ,p{
-    font-size: 2.1rem; /* Ajusta para telas menores que 1200px */
-  }
-}
-
-@media (max-width: 800px) {
-  h1, span,p{
-    font-size: 1.5rem; /* Ajusta para telas menores que 800px */
-  }
-}
-
-@media (max-width: 600px) {
-  h1 , span,p{
-    font-size: 1.1rem; /* Ajusta para telas menores que 600px */
-  }
-}
-
-@media (max-width: 400px) {
-  h1, span,p {
-    font-size: 0.6rem; /* Ajusta para telas muito pequenas, como smartphones */
-  }
 }
 
 .about-section {
@@ -376,3 +359,118 @@ h1 {
   margin-bottom: 8px;
 }
 
+
+/* language switcher */
+.lang-switch {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.lang-switch a,
+.lang-switch span {
+  color: white;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.lang-switch a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.lang-switch .active {
+  background-color: #4A90E2;
+  border-color: #4A90E2;
+  font-weight: bold;
+}
+
+/* expertise cards are links */
+a.button-item {
+  text-decoration: none;
+}
+
+.about-content a {
+  color: #337ab7;
+}
+
+.about-content h3 {
+  color: #333;
+  margin-top: 28px;
+}
+
+.about-content li {
+  text-align: left;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.left-column ul {
+  list-style: disc;
+  padding-left: 22px;
+}
+
+.feature-image {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  margin: 10px auto 20px;
+  border-radius: 12px;
+}
+
+/* phones */
+@media (max-width: 600px) {
+  main {
+    width: 92%;
+  }
+
+  .about-section {
+    padding: 20px 0;
+  }
+
+  .about-content {
+    margin-left: 0;
+  }
+
+  .left-column,
+  .right-column {
+    min-width: 0;
+  }
+
+  .profile-pic {
+    margin: 0 auto 10px;
+    text-align: center;
+  }
+
+  .button-link {
+    width: auto;
+    font-size: 1.2em;
+  }
+
+  .button-image {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .spacer {
+    height: 40px;
+  }
+}
+
+/* phones: keep the title clear of the menu and language buttons */
+@media (max-width: 600px) {
+  header {
+    height: auto;
+    padding: 70px 12px 20px;
+  }
+
+  .main-title {
+    max-width: 100%;
+    padding: 0;
+  }
+}

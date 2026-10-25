@@ -5,21 +5,34 @@
         <li class="dropdown">
           <a href="javascript:void(0)" class="dropbtn">Menu</a>
           <div class="dropdown-content">
-            <a href="{{ relURL "" }}">Home</a>
-            <a href="{{ relURL "resume" }}">Resume</a>
-            <a href="{{ relURL "competências" }}">Areas of Expertise</a>
+            <a href="{{ "" | relLangURL }}">{{ i18n "home" }}</a>
+            <a href="{{ "resume/" | relLangURL }}">{{ i18n "resume" }}</a>
+            <a href="{{ "expertise/" | relLangURL }}">{{ i18n "expertise" }}</a>
           </div>
         </li>
       </ul>
     </nav>
+    <nav class="lang-switch" aria-label="Language">
+      {{ $page := . }}
+      {{ range site.Languages }}
+        {{ $lang := .Lang }}
+        {{ $url := cond (eq $lang "en") "/" (printf "/%s/" $lang) | relURL }}
+        {{ range $page.AllTranslations }}{{ if eq .Language.Lang $lang }}{{ $url = .RelPermalink }}{{ end }}{{ end }}
+        {{ if eq $lang site.Language.Lang }}
+          <span class="active" aria-current="true">{{ .LanguageName }}</span>
+        {{ else }}
+          <a href="{{ $url }}" hreflang="{{ $lang }}">{{ .LanguageName }}</a>
+        {{ end }}
+      {{ end }}
+    </nav>
     <div class="main-title">
-      <p>M.Sc. Student @ TUM</p>
-      <h1>{{ .Site.Title}}</h1>
+      <p>{{ i18n "subtitle" }}</p>
+      <h1>{{ site.Title }}</h1>
       <div class="sub-categories">
-        <span>OPTIMIZATION</span>
-        <span>MACHINE LEARNING</span>
+        <span>{{ i18n "tag_optimization" }}</span>
+        <span>{{ i18n "tag_ml" }}</span>
+        <span>{{ i18n "tag_robotics" }}</span>
       </div>
     </div>
   </div>
 </header>
-
