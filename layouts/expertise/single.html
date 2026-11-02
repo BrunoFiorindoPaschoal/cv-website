@@ -9,6 +9,7 @@
     {{ with .Params.papers }}
     <div class="about-content right-column">
       <h3>{{ i18n "related_papers" }}</h3>
+      <p class="paper-note">{{ i18n "papers_note" }}</p>
       {{ range . }}
       <div class="paper-card">
         <h4>{{ .title }}</h4>

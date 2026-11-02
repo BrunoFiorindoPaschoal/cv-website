@@ -1,10 +1,10 @@
 ---
 title: Start
 ---
-Ich studiere im Master Mechatronics, Robotics and Biomechanical Engineering an der Technischen Universität München (TUM). Meinen Bachelor in Mechatronik habe ich an der Escola Politécnica der Universität São Paulo (USP) im Rahmen des Doppelabschlussprogramms TUM–USP erworben.
-
-Meine Arbeit liegt an der Schnittstelle von **Optimierung**, **maschinellem Lernen** und **Robotik**: technische Systeme mit numerischen Methoden leichter, schneller und intelligenter machen.
-
-Am Lehrstuhl für Produktentwicklung und Leichtbau (LPL) der TUM entwickle ich bei Prof. Markus Zimmermann Surrogatmodelle und Lösungsraum-Methoden für die multidisziplinäre Designoptimierung. Zuvor habe ich als FAPESP-Stipendiat am Multiphysics Systems Optimization Laboratory (MSOL) der USP an der Topologieoptimierung von Elektromotoren sowie an hydraulischen und mechanischen neuronalen Netzen geforscht.
-
-*Ab April 2027 verfügbar für ein sechsmonatiges Vollzeitpraktikum oder eine Werkstudententätigkeit.*
+- **Studium:** M.Sc. Mechatronics, Robotics and Biomechanical Engineering an der Technischen Universität München (TUM), Okt. 2025 – Sep. 2027
+- **Abschluss:** B.Sc. Mechatronik an der Escola Politécnica der Universität São Paulo (USP), Doppelabschluss TUM–USP, unter den besten 15 von 69 meines Jahrgangs
+- **Schwerpunkt:** **Optimierung**, **maschinelles Lernen** und **Robotik**: technische Systeme mit numerischen Methoden leichter, schneller und intelligenter machen
+- **Aktuell:** studentische Hilfskraft am Lehrstuhl für Produktentwicklung und Leichtbau (LPL) der TUM bei Prof. Markus Zimmermann: Surrogatmodelle und Lösungsräume für die multidisziplinäre Designoptimierung, u. a. in einem Industrieprojekt mit Wacker Neuson
+- **Davor:** FAPESP-Stipendiat am Multiphysics Systems Optimization Laboratory (MSOL) der USP: Topologieoptimierung von Elektromotoren, hydraulische und mechanische neuronale Netze
+- **Eigene Projekte:** ein KI-Sprachtutor zum Deutschlernen; Hugging-Face-Zertifikate in Deep Reinforcement Learning, KI-Agenten und MCP
+- **Verfügbarkeit:** ab April 2027 für ein sechsmonatiges Vollzeitpraktikum oder eine Werkstudententätigkeit

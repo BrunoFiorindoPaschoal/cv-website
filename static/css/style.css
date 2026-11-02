@@ -340,7 +340,8 @@ h1 {
     margin-bottom: 15px;
 }
 
-.paper-button {
+/* .about-content prefix: must beat the blue ".about-content a" rule */
+.about-content .paper-button {
     display: inline-block;
     margin-top: 5px;
     padding: 6px 14px;
@@ -348,6 +349,12 @@ h1 {
     color: white;
     text-decoration: none;
     border-radius: 4px;
+}
+
+.paper-note {
+  font-size: 0.9em;
+  color: #666;
+  font-style: italic;
 }
 
 .clean-list {
@@ -410,7 +417,8 @@ a.button-item {
   line-height: 1.6;
 }
 
-.left-column ul {
+.about-content ul {
+  text-align: left;
   list-style: disc;
   padding-left: 22px;
 }
