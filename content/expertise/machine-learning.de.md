@@ -21,5 +21,9 @@ Beide wurden end-to-end mit gradientenbasierter Optimierung und adjungierten Sen
 ### ML für das Engineering
 Am LPL der TUM entwickle ich **Surrogatmodelle**, die aufwendige Finite-Elemente-Simulationen in Optimierungsschleifen ersetzen.
 
+### LLMs, Agenten & Reinforcement Learning
+- **KI-Sprachtutor für Deutsch** (eigenes Projekt): eine Speech-to-Speech-LLM-Pipeline in Echtzeit (Pipecat, Gemini Live API) mit Rollenspielszenarien, sofortiger Fehlerkorrektur und einem SQLite-Langzeitgedächtnis, das durch LLM-Zusammenfassungen am Sitzungsende gefüllt wird.
+- **Hugging-Face-Zertifikate** (2026): Deep Reinforcement Learning mit Certificate of Excellence (DQN-/PPO-Agenten u. a. für Roboterarmsteuerung in Panda-Gym), KI-Agenten (smolagents, LangGraph, LlamaIndex, evaluiert auf GAIA) und Model Context Protocol.
+
 ### Zugehörige Module
 Physikbasiertes Machine Learning, Machine Learning and Optimization (TUM) · Maschinelles Lernen und Mustererkennung bei Prof. Dr. Fabio Gagliardi Cozman, mit der numerischen Theorie des Lernens und der Implementierung von Klassifikationsalgorithmen (USP).

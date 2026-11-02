@@ -23,6 +23,7 @@ title: Resume
     </div>
     <div class="degree-details">
       <h4>TUM–USP Double Degree</h4>
+      <p>Class rank: top 15 of 69, selected for the double degree fellowship.</p>
       <p>Mechatronics integrates mechanics, electronics, control and computing to build automated systems.</p>
       <p><strong>Selected coursework:</strong> Machine Learning and Pattern Recognition, Numerical Methods, Computational Mechanics, Control I, Dynamic Systems I &amp; II, Embedded Systems, Microprocessors in Automation and Robotics, Mechanisms for Automation, Actuators and Drives, Computational Systems for Mechatronics.</p>
     </div>
@@ -53,9 +54,9 @@ title: Resume
       <h4>Laboratory for Product Development and Lightweight Design (LPL)</h4>
       <p>Supervisor: Prof. Markus Zimmermann</p>
       <ul>
-        <li>Built surrogate models that replace computationally expensive Finite Element Analysis, cutting evaluation time while keeping high fidelity in practical cases.</li>
-        <li>Develop and maintain the LPL Optimization Toolbox, extending its Solution Space computation for Multidisciplinary Design Optimization workflows.</li>
-        <li>Applied the Solution Space method with a Bavarian industry partner to a soil-compaction motor hammer, achieving measurable performance gains and better worker safety.</li>
+        <li><strong>Industrial collaboration with Wacker Neuson:</strong> applied the Solution Space method to a soil-compaction motor hammer, reducing average vibration by 30% and improving soil compaction by 25%, lowering operator vibration exposure.</li>
+        <li>Built surrogate models that replace computationally expensive Finite Element Analysis in design studies, evaluating designs ~100× faster.</li>
+        <li>Develop and maintain the LPL Optimization Toolbox, extending its Solution Space computation for Multidisciplinary Design Optimization (MDO) workflows.</li>
       </ul>
     </div>
   </div>
@@ -70,9 +71,8 @@ title: Resume
       <h4>Multiphysics Systems Optimization Laboratory (MSOL)</h4>
       <p>FAPESP grant, renewed twice · Supervisor: Prof. Dr. Emílio Carlos Nelli Silva</p>
       <ul>
-        <li>Developed thermo-magnetic FEM models of switched reluctance motors in FEniCS; the topology optimization routines achieved significant material reduction together with measurable efficiency gains.</li>
-        <li>Extended the routines to discrete multi-material optimization with TOBS, and validated the open-source models against commercial software.</li>
-        <li>Developed hydraulic and mechanical neural networks that encode machine learning tasks in fluid dynamics and structural mechanics.</li>
+        <li>Developed thermo-magnetic FEM models of switched reluctance motors in FEniCS; topology optimization reduced material by 20% with no loss in performance.</li>
+        <li>Extended the topology optimization routines to discrete multi-material design with TOBS, and validated the open-source models against commercial software.</li>
       </ul>
     </div>
   </div>
@@ -85,13 +85,28 @@ title: Resume
     <div class="job-info">
       <h3>Hydraulic &amp; Mechanical Neural Networks</h3>
       <p class="date">2025 – 2026</p>
-      <p>FAPESP-funded research · COMSOL, MATLAB, Python, adjoint method</p>
+      <p>FAPESP-funded research · Submitted to Elsevier <em>Neural Networks</em> · COMSOL, MATLAB, Python, adjoint method</p>
     </div>
     <div class="job-details">
       <ul>
         <li>Designed a hydraulic neural network whose pipe cross-sections are trainable weights: inputs set boundary conditions and the steady-state flow encodes the class; validated on the Iris dataset in COMSOL Multiphysics.</li>
         <li>Developed a mechanical neural network on nonlinear trusses, with beam stiffnesses as learnable parameters, loads as inputs and nodal displacements as outputs.</li>
         <li>Trained both end-to-end with gradient-based optimization using adjoint sensitivities (COMSOL LiveLink for MATLAB), showing that passive physical systems can compute like neural networks.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="experience-item">
+    <div class="job-info">
+      <h3>AI Voice Tutor for Learning German</h3>
+      <p class="date">Jun 2026 – Present</p>
+      <p>Personal project · Python, Pipecat, Gemini Live, SQLite, Whisper</p>
+    </div>
+    <div class="job-details">
+      <ul>
+        <li>Built a personalized German tutor that holds real-time spoken conversations, simulates everyday situations through role-play, and points out mistakes as they happen, with memory that persists between sessions.</li>
+        <li>Orchestrated a multimodal LLM pipeline in Python (Pipecat, Gemini Live API): real-time speech-to-speech streaming with voice activity detection, context engineering of system prompts from the learner's profile and past lessons, and model fallback routing under API rate limits.</li>
+        <li>Designed a relational SQLite database as the tutor's long-term memory: an end-of-session LLM summarization step stores lesson summaries, mistakes and a versioned learner profile, which SQL queries load into the next session's context in place of vector-based RAG.</li>
       </ul>
     </div>
   </div>
@@ -114,6 +129,21 @@ title: Resume
 
 <section id="certifications">
   <h2>Certifications</h2>
+
+  <div class="experience-item">
+    <div class="job-info">
+      <h3>Hugging Face Certifications</h3>
+      <p class="date">Sep – Nov 2026</p>
+      <p>Online courses on <a href="https://huggingface.co/brunopaschoal">Hugging Face</a> · Deep Reinforcement Learning, AI Agents, Model Context Protocol</p>
+    </div>
+    <div class="job-details">
+      <ul>
+        <li><strong>Deep Reinforcement Learning – Certificate of Excellence:</strong> trained DQN/PPO agents with Stable-Baselines3 that passed all benchmark thresholds on the Hugging Face Hub, including robotic-arm control (Panda-Gym) and multi-agent Unity ML-Agents environments.</li>
+        <li><strong>AI Agents:</strong> built agents with smolagents, LangGraph and LlamaIndex (tool calling, agentic RAG); the final agent was evaluated on the GAIA benchmark.</li>
+        <li><strong>Model Context Protocol (MCP):</strong> built MCP servers (Gradio) and clients in Python and JavaScript, including workflow-automation servers (PR review, CI/CD webhooks).</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="experience-item">
     <div class="job-info">
@@ -141,9 +171,10 @@ title: Resume
 
   <div class="experience-item skills">
     <ul>
-      <li><strong>Languages:</strong> Portuguese (native), English (fluent), German (advanced, B2)</li>
-      <li><strong>Programming &amp; tools:</strong> Python, C++, C, MATLAB/Simulink, Linux (advanced) · Verilog, Java (intermediate) · CSS, VBA, Power BI (basic)</li>
-      <li><strong>Simulation &amp; optimization:</strong> COMSOL Multiphysics, FEniCS, surrogate modeling, design optimization</li>
+      <li><strong>Languages:</strong> Portuguese (native), English (fluent, C1 – US High School Diploma), German (B2 – TUM Language Center; Goethe-Zertifikat B1)</li>
+      <li><strong>Programming &amp; tools:</strong> Python, C++, C, MATLAB/Simulink, SQL (SQLite), Git, Linux (advanced) · Verilog, Java (intermediate) · CSS, VBA, Power BI (basic)</li>
+      <li><strong>Simulation &amp; optimization:</strong> numerical and nonlinear optimization, gradient-based optimization with adjoint sensitivities, topology optimization (TOBS), surrogate modeling, Multidisciplinary Design Optimization / Solution Spaces, FEM (FEniCS, COMSOL Multiphysics)</li>
+      <li><strong>AI &amp; ML:</strong> PyTorch, reinforcement learning (Stable-Baselines3, DQN, PPO), LLM agents (smolagents, LangGraph, LlamaIndex), Model Context Protocol, real-time multimodal LLM pipelines (Pipecat, Gemini Live API, Whisper)</li>
       <li><strong>Interests:</strong> Responsible AI, robotics &amp; autonomous systems, structural intelligence, mathematical optimization, scientific computing, data analysis</li>
     </ul>
   </div>

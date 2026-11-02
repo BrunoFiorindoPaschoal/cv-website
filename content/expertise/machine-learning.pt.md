@@ -21,5 +21,9 @@ Ambas foram treinadas de ponta a ponta com otimização baseada em gradiente e s
 ### ML para engenharia
 No LPL da TUM, desenvolvo **modelos substitutos** que substituem simulações de elementos finitos caras dentro de laços de otimização.
 
+### LLMs, agentes e aprendizado por reforço
+- **Tutor de voz com IA para alemão** (projeto pessoal): um pipeline de LLM fala-a-fala em tempo real (Pipecat, Gemini Live API) com cenários de role-play, correção de erros na hora e memória de longo prazo em SQLite alimentada por resumos gerados por LLM ao fim de cada sessão.
+- **Certificações Hugging Face** (2026): Deep Reinforcement Learning com Certificate of Excellence (agentes DQN/PPO, incluindo controle de braço robótico no Panda-Gym), Agentes de IA (smolagents, LangGraph, LlamaIndex, avaliados no GAIA) e Model Context Protocol.
+
 ### Disciplinas relacionadas
 Physics-Informed Machine Learning, Machine Learning and Optimization (TUM) · Aprendizado de Máquina e Reconhecimento de Padrões com o Prof. Dr. Fabio Gagliardi Cozman, abordando a teoria numérica do aprendizado e a implementação de algoritmos de classificação (USP).

@@ -23,6 +23,7 @@ title: Lebenslauf
     </div>
     <div class="degree-details">
       <h4>Doppelabschluss TUM–USP</h4>
+      <p>Jahrgangsrang: Top 15 von 69, ausgewählt für das Doppelabschluss-Stipendium.</p>
       <p>Die Mechatronik verbindet Mechanik, Elektronik, Regelungstechnik und Informatik zur Entwicklung automatisierter Systeme.</p>
       <p><strong>Ausgewählte Module:</strong> Maschinelles Lernen und Mustererkennung, Numerische Methoden, Numerische Mechanik, Regelungstechnik I, Dynamische Systeme I &amp; II, Eingebettete Systeme, Mikroprozessoren in Automatisierung und Robotik, Mechanismen für die Automatisierung, Aktoren und Antriebe, Rechnersysteme für die Mechatronik.</p>
     </div>
@@ -53,9 +54,9 @@ title: Lebenslauf
       <h4>Lehrstuhl für Produktentwicklung und Leichtbau (LPL)</h4>
       <p>Betreuer: Prof. Markus Zimmermann</p>
       <ul>
-        <li>Surrogatmodelle entwickelt, die rechenintensive Finite-Elemente-Analysen ersetzen: deutlich kürzere Auswertungszeiten bei hoher Genauigkeit in praktischen Anwendungsfällen.</li>
-        <li>Entwicklung und Pflege der LPL Optimization Toolbox; Erweiterung der Lösungsraum-Berechnung (Solution Spaces) für Workflows der multidisziplinären Designoptimierung.</li>
-        <li>Lösungsraum-Methode gemeinsam mit einem bayerischen Industriepartner auf einen Bodenverdichtungs-Motorhammer angewendet, mit messbaren Leistungssteigerungen und mehr Arbeitssicherheit.</li>
+        <li><strong>Industriekooperation mit Wacker Neuson:</strong> Lösungsraum-Methode auf einen Bodenverdichtungs-Motorhammer angewendet: durchschnittliche Vibration um 30 % gesenkt, Bodenverdichtung um 25 % verbessert und damit die Vibrationsbelastung des Bedieners reduziert.</li>
+        <li>Surrogatmodelle entwickelt, die rechenintensive Finite-Elemente-Analysen in Designstudien ersetzen und Entwürfe ~100× schneller auswerten.</li>
+        <li>Entwicklung und Pflege der LPL Optimization Toolbox; Erweiterung der Lösungsraum-Berechnung (Solution Spaces) für Workflows der multidisziplinären Designoptimierung (MDO).</li>
       </ul>
     </div>
   </div>
@@ -70,9 +71,8 @@ title: Lebenslauf
       <h4>Multiphysics Systems Optimization Laboratory (MSOL)</h4>
       <p>FAPESP-Stipendium, zweimal verlängert · Betreuer: Prof. Dr. Emílio Carlos Nelli Silva</p>
       <ul>
-        <li>Thermomagnetische FEM-Modelle von geschalteten Reluktanzmotoren in FEniCS entwickelt; die Topologieoptimierung erzielte deutliche Materialeinsparungen bei messbar höherem Wirkungsgrad.</li>
-        <li>Die Routinen mit TOBS auf diskrete Multimaterial-Optimierung erweitert und die Open-Source-Modelle mit kommerzieller Software validiert.</li>
-        <li>Hydraulische und mechanische neuronale Netze entwickelt, die Aufgaben des maschinellen Lernens in Strömungsmechanik und Strukturmechanik abbilden.</li>
+        <li>Thermomagnetische FEM-Modelle von geschalteten Reluktanzmotoren in FEniCS entwickelt; die Topologieoptimierung sparte 20 % Material ohne Leistungsverlust.</li>
+        <li>Die Topologieoptimierung mit TOBS auf diskrete Multimaterial-Auslegung erweitert und die Open-Source-Modelle mit kommerzieller Software validiert.</li>
       </ul>
     </div>
   </div>
@@ -85,13 +85,28 @@ title: Lebenslauf
     <div class="job-info">
       <h3>Hydraulische &amp; mechanische neuronale Netze</h3>
       <p class="date">2025 – 2026</p>
-      <p>FAPESP-gefördert · COMSOL, MATLAB, Python, adjungierte Methode</p>
+      <p>FAPESP-gefördert · Eingereicht bei Elsevier <em>Neural Networks</em> · COMSOL, MATLAB, Python, adjungierte Methode</p>
     </div>
     <div class="job-details">
       <ul>
         <li>Hydraulisches neuronales Netz entworfen, dessen Rohrquerschnitte trainierbare Gewichte sind: Eingaben setzen Randbedingungen, die stationäre Strömung kodiert die Klasse; validiert am Iris-Datensatz in COMSOL Multiphysics.</li>
         <li>Mechanisches neuronales Netz auf nichtlinearen Fachwerken entwickelt: Balkensteifigkeiten als lernbare Parameter, Lasten als Eingaben, Knotenverschiebungen als Ausgaben.</li>
         <li>Beide Architekturen end-to-end mit gradientenbasierter Optimierung und adjungierten Sensitivitäten trainiert (COMSOL LiveLink for MATLAB): passive physikalische Systeme können wie neuronale Netze rechnen.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="experience-item">
+    <div class="job-info">
+      <h3>KI-Sprachtutor zum Deutschlernen</h3>
+      <p class="date">Jun. 2026 – heute</p>
+      <p>Eigenes Projekt · Python, Pipecat, Gemini Live, SQLite, Whisper</p>
+    </div>
+    <div class="job-details">
+      <ul>
+        <li>Personalisierten Deutschtutor gebaut, der Gespräche in Echtzeit führt, Alltagssituationen im Rollenspiel simuliert und Fehler sofort aufzeigt, mit einem Gedächtnis, das über Sitzungen hinweg erhalten bleibt.</li>
+        <li>Multimodale LLM-Pipeline in Python orchestriert (Pipecat, Gemini Live API): Speech-to-Speech-Streaming in Echtzeit mit Sprachaktivitätserkennung (VAD), Context Engineering der System-Prompts aus Lernprofil und bisherigen Lektionen sowie Modell-Fallback bei API-Ratenlimits.</li>
+        <li>Relationale SQLite-Datenbank als Langzeitgedächtnis entworfen: Am Sitzungsende fasst ein LLM die Lektion zusammen und speichert Zusammenfassungen, Fehler und ein versioniertes Lernprofil, die per SQL-Abfrage statt vektorbasiertem RAG in den Kontext der nächsten Sitzung geladen werden.</li>
       </ul>
     </div>
   </div>
@@ -114,6 +129,21 @@ title: Lebenslauf
 
 <section id="certifications">
   <h2>Zertifikate</h2>
+
+  <div class="experience-item">
+    <div class="job-info">
+      <h3>Hugging-Face-Zertifikate</h3>
+      <p class="date">Sep. – Nov. 2026</p>
+      <p>Onlinekurse auf <a href="https://huggingface.co/brunopaschoal">Hugging Face</a> · Deep Reinforcement Learning, KI-Agenten, Model Context Protocol</p>
+    </div>
+    <div class="job-details">
+      <ul>
+        <li><strong>Deep Reinforcement Learning – Certificate of Excellence:</strong> DQN-/PPO-Agenten mit Stable-Baselines3 trainiert, die alle Benchmark-Schwellen auf dem Hugging Face Hub erreichten, u. a. Roboterarmsteuerung (Panda-Gym) und Multi-Agenten-Umgebungen mit Unity ML-Agents.</li>
+        <li><strong>KI-Agenten:</strong> Agenten mit smolagents, LangGraph und LlamaIndex gebaut (Tool Calling, agentisches RAG); der finale Agent wurde auf dem GAIA-Benchmark evaluiert.</li>
+        <li><strong>Model Context Protocol (MCP):</strong> MCP-Server (Gradio) und -Clients in Python und JavaScript gebaut, darunter Server zur Workflow-Automatisierung (PR-Review, CI/CD-Webhooks).</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="experience-item">
     <div class="job-info">
@@ -141,9 +171,10 @@ title: Lebenslauf
 
   <div class="experience-item skills">
     <ul>
-      <li><strong>Sprachen:</strong> Portugiesisch (Muttersprache), Englisch (fließend), Deutsch (fortgeschritten, B2)</li>
-      <li><strong>Programmierung &amp; Tools:</strong> Python, C++, C, MATLAB/Simulink, Linux (fortgeschritten) · Verilog, Java (mittel) · CSS, VBA, Power BI (Grundkenntnisse)</li>
-      <li><strong>Simulation &amp; Optimierung:</strong> COMSOL Multiphysics, FEniCS, Surrogatmodellierung, Designoptimierung</li>
+      <li><strong>Sprachen:</strong> Portugiesisch (Muttersprache), Englisch (fließend, C1 – US-Highschool-Abschluss), Deutsch (B2 – TUM Sprachenzentrum; Goethe-Zertifikat B1)</li>
+      <li><strong>Programmierung &amp; Tools:</strong> Python, C++, C, MATLAB/Simulink, SQL (SQLite), Git, Linux (fortgeschritten) · Verilog, Java (mittel) · CSS, VBA, Power BI (Grundkenntnisse)</li>
+      <li><strong>Simulation &amp; Optimierung:</strong> numerische und nichtlineare Optimierung, gradientenbasierte Optimierung mit adjungierten Sensitivitäten, Topologieoptimierung (TOBS), Surrogatmodellierung, multidisziplinäre Designoptimierung / Lösungsräume, FEM (FEniCS, COMSOL Multiphysics)</li>
+      <li><strong>KI &amp; ML:</strong> PyTorch, Reinforcement Learning (Stable-Baselines3, DQN, PPO), LLM-Agenten (smolagents, LangGraph, LlamaIndex), Model Context Protocol, multimodale Echtzeit-LLM-Pipelines (Pipecat, Gemini Live API, Whisper)</li>
       <li><strong>Interessen:</strong> Verantwortungsvolle KI, Robotik &amp; autonome Systeme, strukturelle Intelligenz, mathematische Optimierung, wissenschaftliches Rechnen, Datenanalyse</li>
     </ul>
   </div>
