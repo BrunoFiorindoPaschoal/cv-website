@@ -54,7 +54,7 @@ title: Lebenslauf
       <h4>Lehrstuhl für Produktentwicklung und Leichtbau (LPL)</h4>
       <p>Betreuer: Prof. Markus Zimmermann</p>
       <ul>
-        <li><strong>Industriekooperation mit Wacker Neuson:</strong> Lösungsraum-Methode auf einen Bodenverdichtungs-Motorhammer angewendet: durchschnittliche Vibration um 30 % gesenkt, Bodenverdichtung um 25 % verbessert und damit die Vibrationsbelastung des Bedieners reduziert.</li>
+        <li><strong>Industriekooperation mit einem bayerischen Industriepartner:</strong> Lösungsraum-Methode auf einen Bodenverdichtungs-Motorhammer angewendet: durchschnittliche Vibration um 30 % gesenkt, Bodenverdichtung um 25 % verbessert und damit die Vibrationsbelastung des Bedieners reduziert.</li>
         <li>Surrogatmodelle entwickelt, die rechenintensive Finite-Elemente-Analysen in Designstudien ersetzen und Entwürfe ~100× schneller auswerten.</li>
         <li>Entwicklung und Pflege der LPL Optimization Toolbox; Erweiterung der Lösungsraum-Berechnung (Solution Spaces) für Workflows der multidisziplinären Designoptimierung (MDO).</li>
       </ul>

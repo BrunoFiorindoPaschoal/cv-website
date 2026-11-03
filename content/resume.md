@@ -54,7 +54,7 @@ title: Resume
       <h4>Laboratory for Product Development and Lightweight Design (LPL)</h4>
       <p>Supervisor: Prof. Markus Zimmermann</p>
       <ul>
-        <li><strong>Industrial collaboration with Wacker Neuson:</strong> applied the Solution Space method to a soil-compaction motor hammer, reducing average vibration by 30% and improving soil compaction by 25%, lowering operator vibration exposure.</li>
+        <li><strong>Industrial collaboration with a Bavarian industry partner:</strong> applied the Solution Space method to a soil-compaction motor hammer, reducing average vibration by 30% and improving soil compaction by 25%, lowering operator vibration exposure.</li>
         <li>Built surrogate models that replace computationally expensive Finite Element Analysis in design studies, evaluating designs ~100× faster.</li>
         <li>Develop and maintain the LPL Optimization Toolbox, extending its Solution Space computation for Multidisciplinary Design Optimization (MDO) workflows.</li>
       </ul>

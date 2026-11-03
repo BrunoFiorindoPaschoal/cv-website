@@ -54,7 +54,7 @@ title: Currículo
       <h4>Laboratório de Desenvolvimento de Produto e Construção Leve (LPL)</h4>
       <p>Orientador: Prof. Markus Zimmermann</p>
       <ul>
-        <li><strong>Colaboração industrial com a Wacker Neuson:</strong> apliquei o método de Espaços de Soluções a um martelo compactador de solo, reduzindo a vibração média em 30% e melhorando a compactação do solo em 25%, o que diminui a exposição do operador à vibração.</li>
+        <li><strong>Colaboração industrial com uma indústria da Baviera:</strong> apliquei o método de Espaços de Soluções a um martelo compactador de solo, reduzindo a vibração média em 30% e melhorando a compactação do solo em 25%, o que diminui a exposição do operador à vibração.</li>
         <li>Desenvolvi modelos substitutos (surrogates) que substituem análises de elementos finitos de alto custo computacional em estudos de projeto, avaliando projetos ~100× mais rápido.</li>
         <li>Desenvolvo e mantenho a LPL Optimization Toolbox, ampliando o cálculo de Espaços de Soluções (Solution Spaces) para fluxos de Otimização Multidisciplinar de Projeto (MDO).</li>
       </ul>
